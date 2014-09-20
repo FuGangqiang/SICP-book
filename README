@@ -1,8 +1,12 @@
 SICP-book
         Structure and Interpretation of Computer Programs
         计算机程序构造和解释
-正在学习 ConTeXt IV,打算同时用 ConTeXt IV 对 SICP 进行重新排版以作练习
-在此期间,我是一边学习 ConTeXt IV,一边看 SICP,同时对 SICP 进行重新排版
+
+这是自己以前挖的一个坑，不知以后会不会填满，先放在这吧，
+以后工作中需要 ConTeXt 和 ConTeXt 对中文支持更好后在填吧！
+
+这个是以前在学习 ConTeXt IV　时,打算同时用 ConTeXt IV 对 SICP 进行重新排版以作练习的，
+在那期间,我是一边学习 ConTeXt IV,一边看 SICP,同时对 SICP 进行重新排版
 书中的图片打算尽可能用 MetaPost 绘制
 
 MIT Press Page: http://mitpress.mit.edu/sicp/full-text/book/book.html
