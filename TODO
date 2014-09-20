@@ -1,0 +1,69 @@
+-*- org -*-
+
+* TODO 封面
+** TODO 重新设置格式
+** TODO 添加图片封面
+
+* DONE Dedication, Foreword, Preface, Acknowledgments
+** TODO 重新修改Dedication
+** TODO 重新修改Foreword
+** TODO 重新修改Preface
+** TODO 重新修改Acknowledgments
+
+* TODO 各章节内容
+** TODO 设定各章样式
+*** DONE Short Contents
+*** DONE Table of Contents
+*** DONE Document Structure
+*** DONE caption 格式
+*** DONE 页码
+**** DONE 罗马数字
+**** DONE 阿拉伯数字
+*** TODO papersize
+*** TODO layout
+*** TODO pretty print scheme code
+*** TODO 每章前的名人名言格式
+*** TODO 重新设置各个章节 scheme 代码格式
+** TODO 第１章
+** TODO 第２章
+** TODO 第３章
+** TODO 第４章
+** TODO 第５章
+** TODO index
+** TODO answer
+
+* TODO 标题
+** TODO 蓝颜色
+** TODO 无衬线字体
+** TODO 超链接各个标题（与目录间）
+
+* TODO 字体
+** TODO 修改整片文章字体格式
+
+* TODO 缩进
+** TODO 修改整片文章缩进格式
+
+* TODO 空白
+** TODO 修改整片文章行间距
+
+* TODO 图片
+** TODO 转换为 MetaPost 绘制
+** TODO 各个图片放置（对齐、大小设定）
+
+* TODO 练习
+** DONE 添加练习块
+** TODO 添加各个练习的索引
+
+* TODO 答案
+** DONE 添加答案块
+** TODO 添加各个答案的索引
+
+* TODO 索引
+** TODO 添加图片索引
+** TODO 添加章节索引
+** TODO 脚注索引
+
+* TODO 宏
+** DONE fixme
+** DONE infixme
+** DONE exp

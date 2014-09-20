@@ -1,0 +1,1962 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="sicp",
+ ["format"]="cont-en",
+ ["stamp"]="2013.07.14 14:53",
+ ["version"]=1.22,
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_variables = utilitydata_job.variables if not utilitydata_job_variables then utilitydata_job_variables = { } utilitydata_job.variables = utilitydata_job_variables end
+
+utilitydata_job_variables.checksums={
+ ["new"]="22AF645D1859CB5CA6DA0C484F1F37EA",
+ ["old"]="149603E6C03516362A8DA23F624DB945",
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_variables = utilitydata_job.variables if not utilitydata_job_variables then utilitydata_job_variables = { } utilitydata_job.variables = utilitydata_job_variables end
+
+utilitydata_job_variables.collected={
+ ["randomseed"]=0.35868513461141,
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_passes = utilitydata_job.passes if not utilitydata_job_passes then utilitydata_job_passes = { } utilitydata_job.passes = utilitydata_job_passes end
+
+utilitydata_job_passes.collected={
+ ["itemgroup"]={
+  { 3, "0" },
+  { 2, "0" },
+  { 1, "0" },
+  { 3, "0" },
+  { 3, "0" },
+  { 1, "0" },
+ },
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_datasets = utilitydata_job.datasets if not utilitydata_job_datasets then utilitydata_job_datasets = { } utilitydata_job.datasets = utilitydata_job_datasets end
+
+utilitydata_job_datasets.collected={
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_pagestates = utilitydata_job.pagestates if not utilitydata_job_pagestates then utilitydata_job_pagestates = { } utilitydata_job.pagestates = utilitydata_job_pagestates end
+
+utilitydata_job_pagestates.collected={
+ ["float"]={ 20, 31 },
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_structure = utilitydata_job.structure if not utilitydata_job_structure then utilitydata_job_structure = { } utilitydata_job.structure = utilitydata_job_structure end
+
+utilitydata_job_structure.collected={
+ ["branches"]={
+  {
+   ["branches"]={
+    {
+     ["branches"]={},
+     ["name"]="ch0",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="ch1",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="ch2",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="ch3",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="ch4",
+     ["type"]="component",
+    },
+    {
+     ["branches"]={},
+     ["name"]="ch5",
+     ["type"]="component",
+    },
+   },
+   ["name"]="sicp",
+   ["type"]="product",
+  },
+ },
+ ["name"]="sicp",
+ ["type"]="text",
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_specials = utilitydata_structures.specials if not utilitydata_structures_specials then utilitydata_structures_specials = { } utilitydata_structures.specials = utilitydata_structures_specials end
+
+utilitydata_structures_specials.collected={
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_counters = utilitydata_structures.counters if not utilitydata_structures_counters then utilitydata_structures_counters = { } utilitydata_structures.counters = utilitydata_structures_counters end
+
+utilitydata_structures_counters.collected={
+ ["answer"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["chemical"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["exercise"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["figure"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["footnote"]={
+  { 28 },
+ },
+ ["formula"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["graphic"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["intermezzo"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 3, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["realpage"]={
+  { 38 },
+ },
+ ["subpage"]={
+  { 0 },
+ },
+ ["table"]={
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+ },
+ ["userpage"]={
+  { 13, 25 },
+ },
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_lists = utilitydata_structures.lists if not utilitydata_structures_lists then utilitydata_structures_lists = { } utilitydata_structures.lists = utilitydata_structures_lists end
+
+utilitydata_structures_lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=1,
+   ["realpage"]=3,
+   ["referenceprefix"]="ch0",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["title"]="Short Contents",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=2,
+   ["realpage"]=4,
+   ["referenceprefix"]="ch0",
+   ["section"]=0,
+  },
+  ["titledata"]={
+   ["title"]="Table of Contents",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=6,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=3,
+   ["realpage"]=5,
+   ["reference"]="chap:dedication",
+   ["referenceprefix"]="ch0",
+   ["section"]=1,
+  },
+  ["titledata"]={
+   ["title"]="Dedication",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=8,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=4,
+   ["realpage"]=6,
+   ["reference"]="chap:foreword",
+   ["referenceprefix"]="ch0",
+   ["section"]=2,
+  },
+  ["titledata"]={
+   ["title"]="Foreword",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=10,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=5,
+   ["realpage"]=9,
+   ["reference"]="chap:preface2",
+   ["referenceprefix"]="ch0",
+   ["section"]=3,
+  },
+  ["titledata"]={
+   ["title"]="Preface to the Second Edition",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=12,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=6,
+   ["realpage"]=10,
+   ["reference"]="chap:preface1",
+   ["referenceprefix"]="ch0",
+   ["section"]=4,
+  },
+  ["titledata"]={
+   ["title"]="Preface to the First Edition",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=14,
+  ["references"]={
+   ["block"]="frontpart",
+   ["component"]="ch0",
+   ["internal"]=7,
+   ["realpage"]=12,
+   ["reference"]="chap:acknowledgments",
+   ["referenceprefix"]="ch0",
+   ["section"]=5,
+  },
+  ["titledata"]={
+   ["title"]="Acknowledgments",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=15,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=8,
+   ["realpage"]=14,
+   ["reference"]="ch:procedures",
+   ["referenceprefix"]="ch1",
+   ["section"]=6,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Building Abstractions with Procedures",
+  },
+ },
+ {
+  ["metadata"]=16,
+  ["numberdata"]=18,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=9,
+   ["realpage"]=14,
+   ["referenceprefix"]="ch1",
+   ["section"]=6,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Programming in Lisp",
+  },
+ },
+ {
+  ["metadata"]=19,
+  ["numberdata"]=21,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=10,
+   ["order"]=1,
+   ["realpage"]=15,
+   ["referenceprefix"]="ch1",
+   ["section"]=6,
+   ["symbolpage"]=15,
+  },
+  ["titledata"]={
+   ["title"]="The Lisp 1 Programmer's Manual appeared in 1960, and the Lisp 1.5 Programmer's Manual (McCarthy 1965) was published in 1962. The early history of Lisp is described in McCarthy 1978. ",
+  },
+ },
+ {
+  ["metadata"]=19,
+  ["numberdata"]=24,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=11,
+   ["order"]=2,
+   ["realpage"]=15,
+   ["referenceprefix"]="ch1",
+   ["section"]=6,
+   ["symbolpage"]=15,
+  },
+  ["titledata"]={
+   ["title"]="The two dialects in which most major Lisp programs of the 1970s were written are MacLisp (Moon 1978; Pitman 1983),developed at the MIT Project MAC, and Interlisp (Teitelman 1974), developed at Bolt Beranek and Newman Inc. and the Xerox Palo Alto Research Center. Portable Standard Lisp (Hearn 1969; Griss 1981) was a Lisp dialect designed to be easily portable between different machines. MacLisp spawned a number of subdialects, such as Franz Lisp, which was developed at the University of California at Berkeley, and Zetalisp (Moon 1981), which was based on a special-purpose processor designed at the MIT Artificial Intelligence Laboratory to run Lisp very efficiently. The Lisp dialect used in this book, called Scheme (Steele 1975), was invented in 1975 by Guy Lewis Steele Jr. and Gerald Jay Sussman of the MIT Artificial Intelligence Laboratory and later reimplemented for instructional use at MIT. Scheme became an IEEE standard in 1990 (IEEE 1990). The Common Lisp dialect (Steele 1982, Steele 1990) was developed by the Lisp community to combine features from the earlier Lisp dialects to make an industrial standard for Lisp. Common Lisp became an ANSI standard in 1994 (ANSI 1994). ",
+  },
+ },
+ {
+  ["metadata"]=19,
+  ["numberdata"]=26,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=12,
+   ["order"]=3,
+   ["realpage"]=15,
+   ["referenceprefix"]="ch1",
+   ["section"]=6,
+   ["symbolpage"]=15,
+  },
+  ["titledata"]={
+   ["title"]="One such special application was a breakthrough computation of scientific importance -- an integration of the motion of the Solar System that extended previous results by nearly two orders of magnitude, and demonstrated that the dynamics of the Solar System is chaotic. This computation was made possible by new integration algorithms, a special-purpose compiler, and a special-purpose computer all implemented with the aid of software tools written in Lisp (Abelson et al. 1992; Sussman and Wisdom 1992). ",
+  },
+ },
+ {
+  ["metadata"]=27,
+  ["numberdata"]=29,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=13,
+   ["realpage"]=16,
+   ["reference"]="sec:elements-of-programming",
+   ["referenceprefix"]="ch1",
+   ["section"]=7,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="The Elements of Programming",
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=32,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=15,
+   ["realpage"]=16,
+   ["referenceprefix"]="ch1",
+   ["section"]=8,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Expressions",
+  },
+ },
+ {
+  ["metadata"]=19,
+  ["numberdata"]=34,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=14,
+   ["order"]=4,
+   ["realpage"]=16,
+   ["referenceprefix"]="ch1",
+   ["section"]=7,
+   ["symbolpage"]=16,
+  },
+  ["titledata"]={
+   ["bookmark"]="The characterization of numbers as \"simple data\" is a barefaced bluff. In fact, the treatment of numbers is one of the trickiest and most confusing aspects of any programming language. Some typical issues involved are these: Some computer systems distinguish integers, such as 2, from real numbers, such as 2.71. Is the real number 2.00 different from the integer 2? Are the arithmetic operations used for integers the same as the operations used for real numbers? Does 6 divided by 2 produce 3, or 3.0? How large a number can we represent? How many decimal places of accuracy can we represent? Is the range of integers the same as the range of real numbers? Above and beyond these questions, of course, lies a collection of issues concerning roundoff and truncation errors -- the entire science of numerical analysis. Since our focus in this book is on large-scale program design rather than on numerical techniques, we are going to ignore these problems. The numerical examples in this chapter will exhibit the usual roundoff behavior that one observes when using arithmetic operations that preserve a limited number of decimal places of accuracy in noninteger operations. ",
+   ["title"]="The characterization of numbers as \\quotation {simple data} is a barefaced bluff. In fact, the treatment of numbers is one of the trickiest and most confusing aspects of any programming language. Some typical issues involved are these: Some computer systems distinguish integers, such as 2, from real numbers, such as 2.71. Is the real number 2.00 different from the integer 2? Are the arithmetic operations used for integers the same as the operations used for real numbers? Does 6 divided by 2 produce 3, or 3.0? How large a number can we represent? How many decimal places of accuracy can we represent? Is the range of integers the same as the range of real numbers? Above and beyond these questions, of course, lies a collection of issues concerning roundoff and truncation errors -- the entire science of numerical analysis. Since our focus in this book is on large-scale program design rather than on numerical techniques, we are going to ignore these problems. The numerical examples in this chapter will exhibit the usual roundoff behavior that one observes when using arithmetic operations that preserve a limited number of decimal places of accuracy in noninteger operations. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=37,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=16,
+   ["order"]=5,
+   ["realpage"]=17,
+   ["referenceprefix"]="ch1",
+   ["section"]=8,
+   ["symbolpage"]=17,
+  },
+  ["titledata"]={
+   ["title"]="Throughout this book, when we wish to emphasize the distinction between the input typed by the user and the response printed by the interpreter, we will show the latter in slanted characters. ",
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=39,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=19,
+   ["realpage"]=18,
+   ["referenceprefix"]="ch1",
+   ["section"]=9,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Naming and the Environment",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=41,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=17,
+   ["order"]=6,
+   ["realpage"]=18,
+   ["referenceprefix"]="ch1",
+   ["section"]=8,
+   ["symbolpage"]=18,
+  },
+  ["titledata"]={
+   ["title"]="Lisp systems typically provide features to aid the user in formatting expressions. Two especially useful features are one that automatically indents to the proper pretty-print position whenever a new line is started and one that highlights the matching left parenthesis whenever a right parenthesis is typed. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=43,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=18,
+   ["order"]=7,
+   ["realpage"]=18,
+   ["referenceprefix"]="ch1",
+   ["section"]=8,
+   ["symbolpage"]=18,
+  },
+  ["titledata"]={
+   ["bookmark"]="Lisp obeys the convention that every expression has a value. This convention, together with the old reputation of Lisp as an inefficient language, is the source of the quip by Alan Perlis (paraphrasing Oscar Wilde) that \"Lisp programmers know the value of everything but the cost of nothing.\" ",
+   ["title"]="Lisp obeys the convention that every expression has a value. This convention, together with the old reputation of Lisp as an inefficient language, is the source of the quip by Alan Perlis (paraphrasing Oscar Wilde) that \\quotation {Lisp programmers know the value of everything but the cost of nothing.} ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=45,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=20,
+   ["order"]=8,
+   ["realpage"]=18,
+   ["referenceprefix"]="ch1",
+   ["section"]=9,
+   ["symbolpage"]=18,
+  },
+  ["titledata"]={
+   ["title"]="In this book, we do not show the interpreter's response to evaluating definitions, since this is highly implementation-dependent. ",
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=47,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=22,
+   ["realpage"]=19,
+   ["referenceprefix"]="ch1",
+   ["section"]=10,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Evaluating Combinations",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=49,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=21,
+   ["order"]=9,
+   ["realpage"]=19,
+   ["referenceprefix"]="ch1",
+   ["section"]=9,
+   ["symbolpage"]=19,
+  },
+  ["titledata"]={
+   ["bookmark"]="\\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  Chapter 3} will show that this notion of environment is crucial, both for understanding how the interpreter works and for implementing interpreters. ",
+   ["title"]="\\infixme {Chapter 3} will show that this notion of environment is crucial, both for understanding how the interpreter works and for implementing interpreters. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=51,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=23,
+   ["order"]=10,
+   ["realpage"]=19,
+   ["referenceprefix"]="ch1",
+   ["section"]=10,
+   ["symbolpage"]=19,
+  },
+  ["titledata"]={
+   ["title"]="It may seem strange that the evaluation rule says, as part of the first step, that we should evaluate the leftmost element of a combination, since at this point that can only be an operator such as + or * representing a built-in primitive procedure such as addition or multiplication. We will see later that it is useful to be able to work with combinations whose operators are themselves compound expressions. ",
+  },
+ },
+ {
+  ["metadata"]=52,
+  ["numberdata"]=53,
+  ["prefixdata"]=54,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=24,
+   ["realpage"]=20,
+   ["reference"]="fig:tree-representation-of-combination",
+   ["section"]=10,
+  },
+  ["titledata"]={
+   ["title"]="Tree representation, showing the value of each subcombination.",
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=56,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=26,
+   ["realpage"]=21,
+   ["referenceprefix"]="ch1",
+   ["section"]=11,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Compound Procedures",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=58,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=25,
+   ["order"]=11,
+   ["realpage"]=21,
+   ["referenceprefix"]="ch1",
+   ["section"]=10,
+   ["symbolpage"]=21,
+  },
+  ["titledata"]={
+   ["bookmark"]="Special syntactic forms that are simply convenient alternative surface structures for things that can be written in more uniform ways are sometimes called syntactic sugar, to use a phrase coined by Peter Landin. In comparison with users of other languages, Lisp programmers, as a rule, are less concerned with matters of syntax. (By contrast, examine any Pascal manual and notice how much of it is devoted to descriptions of syntax.) This disdain for syntax is due partly to the flexibility of Lisp, which makes it easy to change surface syntax, and partly to the observation that many \"convenient\" syntactic constructs, which make the language less uniform, end up causing more trouble than they are worth when programs become large and complex. In the words of Alan Perlis, \"Syntactic sugar causes cancer of the semicolon.\" ",
+   ["title"]="Special syntactic forms that are simply convenient alternative surface structures for things that can be written in more uniform ways are sometimes called syntactic sugar, to use a phrase coined by Peter Landin. In comparison with users of other languages, Lisp programmers, as a rule, are less concerned with matters of syntax. (By contrast, examine any Pascal manual and notice how much of it is devoted to descriptions of syntax.) This disdain for syntax is due partly to the flexibility of Lisp, which makes it easy to change surface syntax, and partly to the observation that many \\quotation {convenient} syntactic constructs, which make the language less uniform, end up causing more trouble than they are worth when programs become large and complex. In the words of Alan Perlis, \\quotation {Syntactic sugar causes cancer of the semicolon.} ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=60,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=27,
+   ["order"]=12,
+   ["realpage"]=21,
+   ["referenceprefix"]="ch1",
+   ["section"]=11,
+   ["symbolpage"]=21,
+  },
+  ["titledata"]={
+   ["bookmark"]="Observe that there are two different operations being combined here: we are creating the procedure, and we are giving it the name square. It is possible, indeed important, to be able to separate these two notions -- to create procedures without naming them, and to give names to procedures that have already been created. We will see how to do this \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  in section 1.3.2}. ",
+   ["title"]="Observe that there are two different operations being combined here: we are creating the procedure, and we are giving it the name square. It is possible, indeed important, to be able to separate these two notions -- to create procedures without naming them, and to give names to procedures that have already been created. We will see how to do this \\infixme {in section 1.3.2}. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=62,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=28,
+   ["order"]=13,
+   ["realpage"]=22,
+   ["referenceprefix"]="ch1",
+   ["section"]=11,
+   ["symbolpage"]=22,
+  },
+  ["titledata"]={
+   ["bookmark"]="Throughout this book, we will describe the general syntax of expressions by using italic symbols delimited by angle brackets -- e.g., <name> -- to denote the \"slots\" in the expression to be filled in when such an expression is actually used. ",
+   ["title"]="Throughout this book, we will describe the general syntax of expressions by using italic symbols delimited by angle brackets -- e.g., <name> -- to denote the \\quotation {slots} in the expression to be filled in when such an expression is actually used. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=64,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=29,
+   ["order"]=14,
+   ["realpage"]=22,
+   ["referenceprefix"]="ch1",
+   ["section"]=11,
+   ["symbolpage"]=22,
+  },
+  ["titledata"]={
+   ["title"]="More generally, the body of the procedure can be a sequence of expressions. In this case, the interpreter evaluates each expression in the sequence in turn and returns the value of the final expression as the value of the procedure application. ",
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=66,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=30,
+   ["realpage"]=23,
+   ["referenceprefix"]="ch1",
+   ["section"]=12,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="The Substitution Model for Procedure Application",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=68,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=31,
+   ["order"]=15,
+   ["realpage"]=24,
+   ["referenceprefix"]="ch1",
+   ["section"]=12,
+   ["symbolpage"]=24,
+  },
+  ["titledata"]={
+   ["title"]="Despite the simplicity of the substitution idea, it turns out to be surprisingly complicated to give a rigorous mathematical definition of the substitution process. The problem arises from the possibility of confusion between the names used for the formal parameters of a procedure and the (possibly identical) names used in the expressions to which the procedure may be applied. Indeed, there is a long history of erroneous definitions of substitution in the literature of logic and programming semantics. See Stoy 1977 for a careful discussion of substitution. ",
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=70,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=33,
+   ["realpage"]=25,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Conditional Expressions and Predicates",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=72,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=32,
+   ["order"]=16,
+   ["realpage"]=25,
+   ["referenceprefix"]="ch1",
+   ["section"]=12,
+   ["symbolpage"]=25,
+  },
+  ["titledata"]={
+   ["bookmark"]="\\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  In chapter 3} we will introduce stream processing, which is a way of handling apparently \"infinite\" data structures ] by incorporating a limited form of normal-order evaluation. \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  In section 4.2} we will modify the Scheme interpreter to produce a normal-order variant of Scheme. ",
+   ["title"]="\\infixme {In chapter 3} we will introduce stream processing, which is a way of handling apparently \\quotation {infinite} data structures ] by incorporating a limited form of normal-order evaluation. \\infixme {In section 4.2} we will modify the Scheme interpreter to produce a normal-order variant of Scheme. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=74,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=34,
+   ["order"]=17,
+   ["realpage"]=25,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+   ["symbolpage"]=25,
+  },
+  ["titledata"]={
+   ["bookmark"]="\"Interpreted as either true or false\" means this: In Scheme, there are two distinguished values that are denoted by the constants \\#t and \\#f. When the interpreter checks a predicate's value, it interprets \\#f as false. Any other value is treated as true. (Thus, providing \\#t is logically unnecessary, but it is convenient.) In this book we will use names true and false, which are associated with the values \\#t and \\#f respectively. ",
+   ["title"]="\\quotation {Interpreted as either true or false} means this: In Scheme, there are two distinguished values that are denoted by the constants \\#t and \\#f. When the interpreter checks a predicate's value, it interprets \\#f as false. Any other value is treated as true. (Thus, providing \\#t is logically unnecessary, but it is convenient.) In this book we will use names true and false, which are associated with the values \\#t and \\#f respectively. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=76,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=35,
+   ["order"]=18,
+   ["realpage"]=25,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+   ["symbolpage"]=25,
+  },
+  ["titledata"]={
+   ["bookmark"]="Abs also uses the \"minus\" operator -, which, when used with a single operand, as in (- x), indicates negation. ",
+   ["title"]="Abs also uses the \\quotation {minus} operator -, which, when used with a single operand, as in (- x), indicates negation. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=78,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=36,
+   ["order"]=19,
+   ["realpage"]=26,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+   ["symbolpage"]=26,
+  },
+  ["titledata"]={
+   ["title"]="A minor difference between if and cond is that the <e> part of each cond clause may be a sequence of expressions. If the corresponding <p> is found to be true, the expressions <e> are evaluated in sequence and the value of the final expression in the sequence is returned as the value of the cond. In an if expression, however, the <consequent> and <alternative> must be single expressions. ",
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=21,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=37,
+   ["order"]=1,
+   ["realpage"]=27,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=24,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=38,
+   ["order"]=2,
+   ["realpage"]=27,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=26,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=39,
+   ["order"]=3,
+   ["realpage"]=27,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=34,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=40,
+   ["order"]=4,
+   ["realpage"]=27,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=37,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=41,
+   ["order"]=5,
+   ["realpage"]=27,
+   ["referenceprefix"]="ch1",
+   ["section"]=13,
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=82,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=42,
+   ["realpage"]=28,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Example: Square Roots by Newton's Method",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=84,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=43,
+   ["order"]=20,
+   ["realpage"]=28,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+   ["symbolpage"]=28,
+  },
+  ["titledata"]={
+   ["bookmark"]="Declarative and imperative descriptions are intimately related, as indeed are mathematics and computer science. For instance, to say that the answer produced by a program is \"correct\" is to make a declarative statement about the program. There is a large amount of research aimed at establishing techniques for proving that programs are correct, and much of the technical difficulty of this subject has to do with negotiating the transition between imperative statements (from which programs are constructed) and declarative statements (which can be used to deduce things). In a related vein, an important current area in programming-language design is the exploration of so-called very high-level languages, in which one actually programs in terms of declarative statements. The idea is to make interpreters sophisticated enough so that, given \"what is\" knowledge specified by the programmer, they can generate \"how to\" knowledge automatically. This cannot be done in general, but there are important areas where progress has been made. We shall revisit this idea \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  in chapter 4}. ",
+   ["title"]="Declarative and imperative descriptions are intimately related, as indeed are mathematics and computer science. For instance, to say that the answer produced by a program is \\quotation {correct} is to make a declarative statement about the program. There is a large amount of research aimed at establishing techniques for proving that programs are correct, and much of the technical difficulty of this subject has to do with negotiating the transition between imperative statements (from which programs are constructed) and declarative statements (which can be used to deduce things). In a related vein, an important current area in programming-language design is the exploration of so-called very high-level languages, in which one actually programs in terms of declarative statements. The idea is to make interpreters sophisticated enough so that, given \\quotation {what is} knowledge specified by the programmer, they can generate \\quotation {how to} knowledge automatically. This cannot be done in general, but there are important areas where progress has been made. We shall revisit this idea \\infixme {in chapter 4}. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=86,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=44,
+   ["order"]=21,
+   ["realpage"]=29,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+   ["symbolpage"]=29,
+  },
+  ["titledata"]={
+   ["bookmark"]="This square-root algorithm is actually a special case of Newton's method, which is a general technique for finding roots of equations. The square-root algorithm itself was developed by Heron of Alexandria in the first century A.D. We will see how to express the general Newton's method as a Lisp procedure \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  in section 1.3.4}. ",
+   ["title"]="This square-root algorithm is actually a special case of Newton's method, which is a general technique for finding roots of equations. The square-root algorithm itself was developed by Heron of Alexandria in the first century A.D. We will see how to express the general Newton's method as a Lisp procedure \\infixme {in section 1.3.4}. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=88,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=45,
+   ["order"]=22,
+   ["realpage"]=29,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+   ["symbolpage"]=29,
+  },
+  ["titledata"]={
+   ["title"]="We will usually give predicates names ending with question marks, to help us remember that they are predicates. This is just a stylistic convention. As far as the interpreter is concerned, the question mark is just an ordinary character. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=90,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=46,
+   ["order"]=23,
+   ["realpage"]=29,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+   ["symbolpage"]=29,
+  },
+  ["titledata"]={
+   ["bookmark"]="Observe that we express our initial guess as 1.0 rather than 1. This would not make any difference in many Lisp implementations. MIT Scheme, however, distinguishes between exact integers and decimal values, and dividing two integers produces a rational number rather than a decimal. For example, dividing 10 by 6 yields 5/3, while dividing 10.0 by 6.0 yields 1.6666666666666667. (We will learn how to implement arithmetic on rational numbers \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  in section 2.1.1}.) If we start with an initial guess of 1 in our square-root program, and x is an exact integer, all subsequent values produced in the square-root computation will be rational numbers rather than decimals. Mixed operations on rational numbers and decimals always yield decimals, so starting with an initial guess of 1.0 forces all subsequent values to be decimals. ",
+   ["title"]="Observe that we express our initial guess as 1.0 rather than 1. This would not make any difference in many Lisp implementations. MIT Scheme, however, distinguishes between exact integers and decimal values, and dividing two integers produces a rational number rather than a decimal. For example, dividing 10 by 6 yields 5/3, while dividing 10.0 by 6.0 yields 1.6666666666666667. (We will learn how to implement arithmetic on rational numbers \\infixme {in section 2.1.1}.) If we start with an initial guess of 1 in our square-root program, and x is an exact integer, all subsequent values produced in the square-root computation will be rational numbers rather than decimals. Mixed operations on rational numbers and decimals always yield decimals, so starting with an initial guess of 1.0 forces all subsequent values to be decimals. ",
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=41,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=48,
+   ["order"]=6,
+   ["realpage"]=30,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=43,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=49,
+   ["order"]=7,
+   ["realpage"]=30,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=92,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=47,
+   ["order"]=24,
+   ["realpage"]=30,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+   ["symbolpage"]=30,
+  },
+  ["titledata"]={
+   ["bookmark"]="Readers who are worried about the efficiency issues involved in using procedure calls to implement iteration should note the remarks on \"tail recursion\" \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  in section 1.2.1}. ",
+   ["title"]="Readers who are worried about the efficiency issues involved in using procedure calls to implement iteration should note the remarks on \\quotation {tail recursion} \\infixme {in section 1.2.1}. ",
+  },
+ },
+ {
+  ["metadata"]=79,
+  ["numberdata"]=45,
+  ["prefixdata"]=80,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=50,
+   ["order"]=8,
+   ["realpage"]=31,
+   ["referenceprefix"]="ch1",
+   ["section"]=14,
+  },
+ },
+ {
+  ["metadata"]=30,
+  ["numberdata"]=94,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch1",
+   ["internal"]=51,
+   ["realpage"]=31,
+   ["referenceprefix"]="ch1",
+   ["section"]=15,
+  },
+  ["titledata"]={
+   ["label"]="subsection",
+   ["title"]="Procedures as Black-Box Abstractions",
+  },
+ },
+ {
+  ["metadata"]=52,
+  ["numberdata"]=95,
+  ["prefixdata"]=54,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=52,
+   ["realpage"]=31,
+   ["reference"]="fig:sqrt-decomposition",
+   ["section"]=15,
+  },
+  ["titledata"]={
+   ["title"]="Procedural decomposition of the sqrt program.",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=97,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=53,
+   ["order"]=25,
+   ["realpage"]=32,
+   ["referenceprefix"]="ch1",
+   ["section"]=15,
+   ["symbolpage"]=32,
+  },
+  ["titledata"]={
+   ["bookmark"]="It is not even clear which of these procedures is a more efficient implementation. This depends upon the hardware available. There are machines for which the \"obvious\" implementation is the less efficient one. Consider a machine that has extensive tables of logarithms and antilogarithms stored in a very efficient manner. ",
+   ["title"]="It is not even clear which of these procedures is a more efficient implementation. This depends upon the hardware available. There are machines for which the \\quotation {obvious} implementation is the less efficient one. Consider a machine that has extensive tables of logarithms and antilogarithms stored in a very efficient manner. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=99,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=54,
+   ["order"]=26,
+   ["realpage"]=33,
+   ["referenceprefix"]="ch1",
+   ["section"]=15,
+   ["symbolpage"]=33,
+  },
+  ["titledata"]={
+   ["title"]="The concept of consistent renaming is actually subtle and difficult to define formally. Famous logicians have made embarrassing errors here. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=101,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=55,
+   ["order"]=27,
+   ["realpage"]=34,
+   ["referenceprefix"]="ch1",
+   ["section"]=15,
+   ["symbolpage"]=34,
+  },
+  ["titledata"]={
+   ["bookmark"]="Lexical scoping dictates that free variables in a procedure are taken to refer to bindings made by enclosing procedure definitions; that is, they are looked up in the environment in which the procedure was defined. We will see how this works in detail \\inframed [background=color, backgroundcolor=darkgray, corner=round] {\\color [red]{Fixme:}  in chapter 3} when we study environments and the detailed behavior of the interpreter. ",
+   ["title"]="Lexical scoping dictates that free variables in a procedure are taken to refer to bindings made by enclosing procedure definitions; that is, they are looked up in the environment in which the procedure was defined. We will see how this works in detail \\infixme {in chapter 3} when we study environments and the detailed behavior of the interpreter. ",
+  },
+ },
+ {
+  ["metadata"]=35,
+  ["numberdata"]=103,
+  ["prefixdata"]=22,
+  ["references"]={
+   ["block"]="bodypart",
+   ["internal"]=56,
+   ["order"]=28,
+   ["realpage"]=34,
+   ["referenceprefix"]="ch1",
+   ["section"]=15,
+   ["symbolpage"]=34,
+  },
+  ["titledata"]={
+   ["title"]="Embedded definitions must come first in a procedure body. The management is not responsible for the consequences of running programs that intertwine definition and use. ",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=104,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch2",
+   ["internal"]=57,
+   ["realpage"]=35,
+   ["reference"]="ch:data",
+   ["referenceprefix"]="ch2",
+   ["section"]=16,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Building Abstraction with Data",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=105,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch3",
+   ["internal"]=58,
+   ["realpage"]=36,
+   ["reference"]="ch:object",
+   ["referenceprefix"]="ch3",
+   ["section"]=17,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Modularity,Objects and State",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=106,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch4",
+   ["internal"]=59,
+   ["realpage"]=37,
+   ["reference"]="ch:metalingual",
+   ["referenceprefix"]="ch4",
+   ["section"]=18,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Metalinguistic Abstraction",
+  },
+ },
+ {
+  ["metadata"]=4,
+  ["numberdata"]=107,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ch5",
+   ["internal"]=60,
+   ["realpage"]=38,
+   ["reference"]="ch:register",
+   ["referenceprefix"]="ch5",
+   ["section"]=19,
+  },
+  ["titledata"]={
+   ["label"]="chapter",
+   ["title"]="Computing with Register Machines",
+  },
+ },
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_pages = utilitydata_structures.pages if not utilitydata_structures_pages then utilitydata_structures_pages = { } utilitydata_structures.pages = utilitydata_structures_pages end
+
+utilitydata_structures_pages.collected={
+ {
+  ["block"]="frontpart",
+  ["number"]=1,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=2,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=3,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=4,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=5,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=6,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=7,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=8,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=9,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=10,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=11,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=12,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="frontpart",
+  ["number"]=13,
+  ["numberdata"]=108,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=7,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=8,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=9,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=10,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=11,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=12,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=13,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=14,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=15,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=16,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=17,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=18,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=19,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=20,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=21,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=22,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=23,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=24,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=25,
+  ["numberdata"]=110,
+  ["prefixdata"]=109,
+ },
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_references = utilitydata_structures.references if not utilitydata_structures_references then utilitydata_structures_references = { } utilitydata_structures.references = utilitydata_structures_references end
+
+utilitydata_structures_references.collected={
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_references = utilitydata_structures.references if not utilitydata_structures_references then utilitydata_structures_references = { } utilitydata_structures.references = utilitydata_structures_references end
+
+utilitydata_structures_references.referred={
+ { 3, 1 },
+ { 4, 11 },
+ { 15, 30 },
+ { 16, 36 },
+ { 17, 38 },
+ { 18, 40 },
+ { 19, 46 },
+ { 19, 51 },
+ { 21, 52 },
+ { 22, 56 },
+ { 24, 60 },
+ { 25, 62 },
+ { 26, 68 },
+ { 28, 70 },
+ { 29, 72 },
+ { 30, 78 },
+ { 31, 81 },
+ { 32, 82 },
+ { 33, 84 },
+ { 34, 86 },
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_registers = utilitydata_structures.registers if not utilitydata_structures_registers then utilitydata_structures_registers = { } utilitydata_structures.registers = utilitydata_structures_registers end
+
+utilitydata_structures_registers.collected={
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_positions = utilitydata_job.positions if not utilitydata_job_positions then utilitydata_job_positions = { } utilitydata_job.positions = utilitydata_job_positions end
+
+utilitydata_job_positions.collected={
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_objects = utilitydata_job.objects if not utilitydata_job_objects then utilitydata_job_objects = { } utilitydata_job.objects = utilitydata_job_objects end
+
+utilitydata_job_objects.collected={
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_synonyms = utilitydata_structures.synonyms if not utilitydata_structures_synonyms then utilitydata_structures_synonyms = { } utilitydata_structures.synonyms = utilitydata_structures_synonyms end
+
+utilitydata_structures_synonyms.collected={
+}
+
+local utilitydata_structures = utilitydata.structures if not utilitydata_structures then utilitydata_structures = { } utilitydata.structures = utilitydata_structures end
+local utilitydata_structures_blocks = utilitydata_structures.blocks if not utilitydata_structures_blocks then utilitydata_structures_blocks = { } utilitydata_structures.blocks = utilitydata_structures_blocks end
+
+utilitydata_structures_blocks.collected={
+ {
+  ["data"]="Below is a sequence of expressions.\
+What is the result printed by the interpreter in response to each expression?\
+Assume that the sequence is to be evaluated in the order in which it is presented.\
+\\startcode\
+10\
+(+ 5 3 4)\
+(- 9 1)\
+(/ 6 2)\
+(+ (* 2 4) (- 4 6))\
+(define a 3)\
+(define b (+ a 1))\
+(+ a b (* a b))\
+(= a b)\
+(if (and (> b a) (< b (* a b)))\
+    b\
+    a)\
+(cond ((= a 4) 6)\
+      ((= b 4) (+ 6 7 a))\
+      (else 25))\
+(+ 2 (if (> b a) b a))\
+(* (cond ((> a b) a)\
+         ((< a b) b)\
+         (else -1))\
+   (+ a 1))\
+\\stopcode",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=13,
+  },
+ },
+ {
+  ["data"]="Translate the following expression into prefix form\
+\\startformula\
+   \\frac{5+4+\\left(2-\\left(3-(6+\\displaystyle\\frac45)\\right)\\right)}\
+        {3(6-2)(2-7)}\
+\\stopformula",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=13,
+  },
+ },
+ {
+  ["data"]="Define a procedure that takes three numbers as arguments and returns the sum of the squares of the two larger numbers.",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=13,
+  },
+ },
+ {
+  ["data"]="Observe that our model of evaluation allows for combinations whose operators are compound expressions.\
+Use this observation to describe the behavior of the following procedure:\
+\\startcode\
+(define (a-plus-abs-b a b)\
+  ((if (> b 0) + -) a b))\
+\\stopcode",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=13,
+  },
+ },
+ {
+  ["data"]="Ben Bitdiddle has invented a test to determine\
+whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation.\
+He defines the following two procedures:\
+\\startcode\
+(define (p) (p))\
+\
+(define (test x y)\
+  (if (= x 0)\
+      0\
+      y))\
+\\stopcode\
+Then he evaluates the expression\
+\\startcode\
+(test 0 (p))\
+\\stopcode\
+What behavior will Ben observe with an interpreter that uses applicative-order evaluation?\
+What behavior will he observe with an interpreter that uses normal-order evaluation?\
+Explain your answer.\
+(Assume that the evaluation rule for the special form \\exp{if} is the same\
+whether the interpreter is using normal or applicative order:\
+The predicate expression is evaluated first,\
+and the result determines whether to evaluate the consequent or the alternative expression.)",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=13,
+  },
+ },
+ {
+  ["data"]="Alyssa P. Hacker doesn't see why if needs to be provided as a special form.\
+\\quotation{Why can't I just define it as an ordinary procedure in terms of cond?} she asks.\
+Alyssa's friend Eva Lu Ator claims this can indeed be done, and she defines a new version of if:\
+\\startcode\
+(define (new-if predicate then-clause else-clause)\
+  (cond (predicate then-clause)\
+        (else else-clause)))\
+\\stopcode\
+Eva demonstrates the program for Alyssa:\
+\\startcode\
+(new-if (= 2 3) 0 5)\
+5\
+\
+(new-if (= 1 1) 0 5)\
+0\
+\\stopcode\
+Delighted, Alyssa uses \\exp{new-if} to rewrite the square-root program:\
+\\startcode\
+(define (sqrt-iter guess x)\
+  (new-if (good-enough? guess x)\
+          guess\
+          (sqrt-iter (improve guess x)\
+                     x)))\
+\\stopcode\
+What happens when Alyssa attempts to use this to compute square roots? Explain.",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=14,
+  },
+ },
+ {
+  ["data"]="The \\exp{good-enough?} test used in computing square roots\
+will not be very effective for finding the square roots of very small numbers.\
+Also, in real computers,\
+arithmetic operations are almost always performed with limited precision.\
+This makes our test inadequate for very large numbers.\
+Explain these statements, with examples showing how the test fails for small and large numbers.\
+An alternative strategy for implementing good-enough? is to watch\
+how guess changes from one iteration to the next and to stop when the change is a very small fraction of the guess.\
+Design a square-root procedure that uses this kind of end test.\
+Does this work better for small and large numbers?",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=14,
+  },
+ },
+ {
+  ["data"]="Newton's method for cube roots is based on the fact\
+that if y is an approximation to the cube root of x, then a better approximation is given by the value\
+\
+\\startformula\
+   \\frac{x/y^2 + 2y}{3}\
+\\stopformula\
+\
+Use this formula to implement a cube-root procedure analogous to the square-root procedure.\
+(\\infixme{In section 1.3.4} we will see how to implement Newton's method\
+in general as an abstraction of these square-root and cube-root procedures.)",
+  ["metadata"]=111,
+  ["references"]={
+   ["section"]=14,
+  },
+ },
+}
+
+local utilitydata_job = utilitydata.job if not utilitydata_job then utilitydata_job = { } utilitydata.job = utilitydata_job end
+local utilitydata_job_files = utilitydata_job.files if not utilitydata_job_files then utilitydata_job_files = { } utilitydata_job.files = utilitydata_job_files end
+
+utilitydata_job_files.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["name"]="title",
+   ["nolist"]=true,
+  },
+  { 0, 0 },
+  {
+   ["block"]="frontpart",
+   ["hidenumber"]=true,
+   ["numbers"]=2,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="chapter",
+  },
+  { 0, 1 },
+  {
+   ["block"]="frontpart",
+   ["hidenumber"]=true,
+   ["numbers"]=5,
+   ["set"]="all",
+  },
+  { 0, 2 },
+  {
+   ["block"]="frontpart",
+   ["hidenumber"]=true,
+   ["numbers"]=7,
+   ["set"]="all",
+  },
+  { 0, 3 },
+  {
+   ["block"]="frontpart",
+   ["hidenumber"]=true,
+   ["numbers"]=9,
+   ["set"]="all",
+  },
+  { 0, 4 },
+  {
+   ["block"]="frontpart",
+   ["hidenumber"]=true,
+   ["numbers"]=11,
+   ["set"]="all",
+  },
+  { 0, 5 },
+  {
+   ["block"]="frontpart",
+   ["hidenumber"]=true,
+   ["numbers"]=13,
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=5,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="section",
+   ["name"]="subject",
+   ["nolist"]=true,
+  },
+  { 0, 1, 0 },
+  {
+   ["block"]="bodypart",
+   ["hidenumber"]=true,
+   ["numbers"]=17,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=3,
+   ["name"]="footnote",
+  },
+  { 1 },
+  {
+   ["numbers"]=20,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="no",
+   ["segments"]="2:2",
+  },
+  { 2 },
+  {
+   ["numbers"]=23,
+  },
+  { 3 },
+  {
+   ["numbers"]=25,
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="section",
+  },
+  { 0, 1, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=28,
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["name"]="subsection",
+  },
+  { 0, 1, 1, 1 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=31,
+   ["set"]="all",
+  },
+  { 4 },
+  {
+   ["numbers"]=33,
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=4,
+   ["name"]="footnote",
+  },
+  { 5 },
+  {
+   ["numbers"]=36,
+  },
+  { 0, 1, 1, 2 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=38,
+   ["set"]="all",
+  },
+  { 6 },
+  {
+   ["numbers"]=40,
+  },
+  { 7 },
+  {
+   ["numbers"]=42,
+  },
+  { 8 },
+  {
+   ["numbers"]=44,
+  },
+  { 0, 1, 1, 3 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=46,
+   ["set"]="all",
+  },
+  { 9 },
+  {
+   ["numbers"]=48,
+  },
+  { 10 },
+  {
+   ["numbers"]=50,
+  },
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["kind"]="float",
+   ["level"]=4,
+   ["name"]="figure",
+  },
+  {
+   ["counter"]="figure",
+   ["numbers"]=20,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="yes",
+   ["segments"]="chapter",
+  },
+  { 0, 1, 1, 4 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=55,
+   ["set"]="all",
+  },
+  { 11 },
+  {
+   ["numbers"]=57,
+  },
+  { 12 },
+  {
+   ["numbers"]=59,
+  },
+  { 13 },
+  {
+   ["numbers"]=61,
+  },
+  { 14 },
+  {
+   ["numbers"]=63,
+  },
+  { 0, 1, 1, 5 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=65,
+   ["set"]="all",
+  },
+  { 15 },
+  {
+   ["numbers"]=67,
+  },
+  { 0, 1, 1, 6 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=69,
+   ["set"]="all",
+  },
+  { 16 },
+  {
+   ["numbers"]=71,
+  },
+  { 17 },
+  {
+   ["numbers"]=73,
+  },
+  { 18 },
+  {
+   ["numbers"]=75,
+  },
+  { 19 },
+  {
+   ["numbers"]=77,
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=4,
+   ["name"]="exercise",
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="chapter",
+   ["segments"]="2:2",
+  },
+  { 0, 1, 1, 7 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=81,
+   ["set"]="all",
+  },
+  { 20 },
+  {
+   ["numbers"]=83,
+  },
+  { 21 },
+  {
+   ["numbers"]=85,
+  },
+  { 22 },
+  {
+   ["numbers"]=87,
+  },
+  { 23 },
+  {
+   ["numbers"]=89,
+  },
+  { 24 },
+  {
+   ["numbers"]=91,
+  },
+  { 0, 1, 1, 8 },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=93,
+   ["set"]="all",
+  },
+  {
+   ["counter"]="figure",
+   ["numbers"]=23,
+  },
+  { 25 },
+  {
+   ["numbers"]=96,
+  },
+  { 26 },
+  {
+   ["numbers"]=98,
+  },
+  { 27 },
+  {
+   ["numbers"]=100,
+  },
+  { 28 },
+  {
+   ["numbers"]=102,
+  },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=7,
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=9,
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=11,
+   ["set"]="all",
+  },
+  {
+   ["block"]="bodypart",
+   ["numbers"]=13,
+   ["set"]="all",
+  },
+  {
+   ["conversion"]="Romannumerals",
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["minus"]=false,
+   ["name"]="exercise",
+   ["plus"]=false,
+   ["tags"]={},
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata
